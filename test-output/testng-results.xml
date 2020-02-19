@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44088" started-at="2020-01-27T09:19:20Z" finished-at="2020-01-27T09:20:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44088" started-at="2020-01-27T09:19:20Z" finished-at="2020-01-27T09:20:04Z">
+      <class name="POM_Gmail.Gmail_TestScript">
+        <test-method status="PASS" signature="login_Logout()[pri:0, instance:POM_Gmail.Gmail_TestScript@548a9f61]" name="login_Logout" duration-ms="44072" started-at="2020-01-27T14:49:20Z" finished-at="2020-01-27T14:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Logout -->
+      </class> <!-- POM_Gmail.Gmail_TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

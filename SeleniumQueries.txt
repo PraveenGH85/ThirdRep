@@ -1,0 +1,15 @@
+1) How to deselect an already selected RadioButton using selenium?
+driver.findElement(By.id("rb2")).click();   //for selecting the radiobutton
+There is no disable() or deselect() method present in the By class.
+
+2) How to pass input values for all the textboxes and Radiobuttons by using only By.tagName("input")?
+How to use the concept of indexing?
+Enter the Discus Strain : <input type="text" id="dstrain"><br><br><br>
+Enter the Discus Price-range : <br>
+<input type="radio" id="rb1" name="price" value="B500">Below 500<br>
+<input type="radio" id="rb2" name="price" value="A500">Above 500<br><br><br>
+Enter the Discus size : <input type="text" name="dsize"><br><br><br>
+<input type="button" class="submitclass" value="Submit">
+
+3) What is the need to go for CSSSelector, when we have other options like using By.tagName(), By.id(), By.name() and By.className()?
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MIP]">
+  <test name="Dashboard(failed)">
+    <classes>
+      <class name="TestNG_Package.FirstTestNGScript">
+        <methods>
+          <include name="method2"/>
+        </methods>
+      </class> <!-- TestNG_Package.FirstTestNGScript -->
+    </classes>
+  </test> <!-- Dashboard(failed) -->
+</suite> <!-- Failed suite [MIP] -->

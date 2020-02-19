@@ -1,0 +1,22 @@
+Locating "Views" from the name of the video clip in youtube : 
+==============================================================
+Video URL-->https://www.youtube.com/watch?v=udKE1ksKWDE
+
+//ytd-video-primary-info-renderer/div[@id='container']/div[1]//div[@id='count']/yt-view-count-renderer/span[1]
+
+
+
+Locating KMs and then to Mins from the Text fastest route in google maps : 
+==========================================================================
+Query-->Fastest route from Bellandur to RT Nagar in Google Maps
+
+//span[.='Suranjan Das Rd']/ancestor::div[@jstcache='302']//
+div[@class='section-directions-trip-distance section-directions-trip-secondary-text']
+/div/ancestor::div[@class='section-directions-trip-numbers']//span[1]
+
+
+Locating NRR from the static element 'Mumbai Indians' in the IPL 2018 Points Table(NDTV Website) : 
+===================================================================================================
+WebPage URL-->https://sports.ndtv.com/ipl-2019/points-table
+
+//p[.='Mumbai Indians']/../../following-sibling::td[7]

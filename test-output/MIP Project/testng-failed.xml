@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MIP Project]">
+  <test name="Dashboard Application(failed)">
+    <classes>
+      <class name="TestNG_Package.Dependencies">
+        <methods>
+          <include name="compose"/>
+          <include name="sentItems"/>
+        </methods>
+      </class> <!-- TestNG_Package.Dependencies -->
+    </classes>
+  </test> <!-- Dashboard Application(failed) -->
+</suite> <!-- Failed suite [MIP Project] -->

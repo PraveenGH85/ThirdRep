@@ -1,0 +1,5 @@
+WinWaitActive("File Upload")
+Sleep(2000)
+Send("C:\Users\praveenn\Desktop\LeavePlan.xlsx")
+Sleep(1000)
+Send("{ENTER}")
